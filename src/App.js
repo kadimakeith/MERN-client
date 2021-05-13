@@ -34,7 +34,7 @@ function App() {
        id: id,
        newName: newName
      })
-
+     window.location.reload();
    }
 
   const updateMail = (id) => {
@@ -42,7 +42,7 @@ function App() {
        id: id,
        newName: newName
      })
-
+     window.location.reload(); 
   }
 
   const updateCountry = (id) => {
@@ -50,7 +50,7 @@ function App() {
        id: id,
        newName: newName
      })
-
+     window.location.reload(); 
   }
 
   const deleteContact = (id) => {
