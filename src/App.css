@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 30px;
+  margin-right: 120px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: crimson;
+  
+
+}
+
+input{
+  width: 150px;
+  height: 25px;
+}
