@@ -40,7 +40,7 @@ function App() {
   const updateMail = (id) => {
     Axios.put('https://mern-crud-zuri.herokuapp.com/updateMail', {
        id: id,
-       newName: newName
+       newMail: newMail
      })
      window.location.reload(); 
   }
@@ -48,7 +48,7 @@ function App() {
   const updateCountry = (id) => {
     Axios.put('https://mern-crud-zuri.herokuapp.com/updateCountry', {
        id: id,
-       newName: newName
+       newCountry: newCountry
      })
      window.location.reload(); 
   }
